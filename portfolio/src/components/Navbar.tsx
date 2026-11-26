@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { IoMail } from "react-icons/io5";
 import logo from "../assets/logo.png";
@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav
       id="nav"
-      className="relative w-full px-5 sm:px-8 md:pl-32 md:pr-10 lg:pl-40 lg:pr-16 xl:pl-44 py-5 md:py-8 z-50"
+      className="relative w-full px-4 sm:px-8 md:pl-32 md:pr-10 lg:pl-40 lg:pr-16 xl:pl-44 py-4 sm:py-5 md:py-8 z-50"
     >
       <div className="mx-auto max-w-7xl flex items-center justify-between w-full">
         {/* Mobile Logo + Desktop Email */}

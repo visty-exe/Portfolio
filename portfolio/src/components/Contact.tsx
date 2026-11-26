@@ -26,7 +26,7 @@ const Contact = () => {
     <section
       id="contact"
       aria-labelledby="contact-heading"
-      className="w-full px-6 py-20 pl-28 sm:px-10 sm:py-24 sm:pl-36 lg:pl-40 lg:pr-16 xl:pl-44"
+      className="w-full px-4 py-12 sm:px-8 sm:py-20 md:pl-32 md:pr-10 lg:pl-40 lg:pr-16 xl:pl-44"
     >
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 md:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] md:gap-10 lg:gap-16">
         <div className="pt-2">
@@ -203,7 +203,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="inline-flex items-center gap-2 rounded-full bg-gray-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gray-900"
+              className="inline-flex w-full sm:w-auto justify-center items-center gap-2 rounded-full bg-gray-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gray-900"
             >
               Prepare email
               <ArrowUpRight size={17} aria-hidden="true" />

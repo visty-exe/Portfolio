@@ -1,4 +1,3 @@
-import React from "react";
 import { ArrowUpRight } from "lucide-react";
 
 import chat from "../works/chat.png";
@@ -42,7 +41,7 @@ const Work = () => {
     <section
       id="work"
       aria-labelledby="work-heading"
-      className="w-full py-20 pl-28 pr-6 sm:py-24 sm:pl-36 sm:pr-10 lg:pl-40 lg:pr-16 xl:pl-44"
+      className="w-full px-4 py-12 sm:px-8 sm:py-20 md:pl-32 md:pr-10 lg:pl-40 lg:pr-16 xl:pl-44"
     >
       <div className="mx-auto max-w-7xl">
         <div className="mb-10 flex flex-wrap items-end justify-between gap-5 sm:mb-14">
@@ -70,7 +69,7 @@ const Work = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={`View ${work.name} project (opens in a new tab)`}
-              className="group rounded-2xl border border-gray-200 bg-white p-2.5 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-gray-300 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gray-900"
+              className="group min-w-0 rounded-2xl border border-gray-200 bg-white p-2.5 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-gray-300 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gray-900"
             >
               <div className="relative overflow-hidden rounded-xl bg-gray-100">
                 <img

@@ -1,4 +1,3 @@
-import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { FaSquareGithub } from "react-icons/fa6";
 

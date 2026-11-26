@@ -1,5 +1,4 @@
 
-import React from "react";
 import { ArrowUpRight } from "lucide-react";
 import { FaGithub, FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
@@ -7,8 +6,8 @@ import resume from "../assets/Resume_Vishal.pdf";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 px-6 md:px-12 lg:px-20 py-12 md:py-16">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-12 lg:px-10">
+    <footer className="bg-gray-50 px-4 py-10 sm:px-8 sm:py-12 md:pl-32 md:pr-10 md:py-16 lg:pl-40 lg:pr-16 xl:pl-44">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-12">
 
         {/* About */}
         <div>
@@ -112,7 +111,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Footer */}
-      <div className="max-w-7xl mx-auto border-t border-gray-200 mt-10 md:mt-14 pt-6 lg:px-10 flex flex-col sm:flex-row justify-between items-center gap-3 text-center sm:text-left text-sm text-gray-400">
+      <div className="max-w-7xl mx-auto border-t border-gray-200 mt-10 md:mt-14 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-center sm:text-left text-sm text-gray-400">
         <p>© {new Date().getFullYear()} Vishal Tyagi. All rights reserved.</p>
         <p>Made by ❤️ by Vishal</p>
       </div>

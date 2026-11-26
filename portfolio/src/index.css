@@ -3,6 +3,18 @@
 
 body {
   font-family: 'Space Grotesk', sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 @keyframes marquee {
